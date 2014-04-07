@@ -1,3 +1,9 @@
+@font-face
+{
+  font-family: MetroMedium;
+  src: url(fonts/MetroMediumLT-Two.ttf);
+}
+
 /*
  * Base structure
  */
@@ -35,6 +41,9 @@ body {
     z-index: 1000;
     display: block;
     padding: 20px;
+    font-size: 20px;
+    font-family: MetroMedium;
+    text-align: center; 
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
     background: -webkit-linear-gradient(bottom, rgba(248, 166, 255, 0.5), rgba(170, 247, 248, 0.5));
