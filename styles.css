@@ -4,6 +4,11 @@
   src: url(fonts/MetroMediumLT-Two.ttf);
 }
 
+.sidebarlink {
+  
+}
+
+
 /*
  * Base structure
  */
@@ -62,7 +67,7 @@ body {
   color: #fff;
 }
 .nav-sidebar > li > a:hover {
-  background: #f4b7f8;
+  background: #f4b7f8;  
 }
 .nav-sidebar > .active > a {
   color: #fff;
