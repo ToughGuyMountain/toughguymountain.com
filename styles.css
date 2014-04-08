@@ -76,8 +76,6 @@ body {
 
 
 body {
-  background-image: url("images/condomaxiumhumanroom.jpg");
-  background-size: cover;
 }
 
 /*
@@ -116,3 +114,4 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
