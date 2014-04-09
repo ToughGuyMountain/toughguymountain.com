@@ -1,4 +1,9 @@
 .cb-slideshow,
+
+.cb-slideshow > ul {
+	padding-top:0px;	
+}
+
 .cb-slideshow:after { 
     position: fixed;
     width: 100%;

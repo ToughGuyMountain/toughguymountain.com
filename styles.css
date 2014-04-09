@@ -45,7 +45,8 @@ body {
     left: 62px;
     z-index: 1000;
     display: block;
-    padding: 20px;
+    padding-right: 20px;
+	padding-left: 20px;
     font-size: 20px;
     font-family: MetroMedium;
     text-align: center; 
@@ -60,6 +61,7 @@ body {
   margin-right: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-left: -20px;
+  margin-top:100px;
 }
 .nav-sidebar > li > a {
   padding-right: 20px;
