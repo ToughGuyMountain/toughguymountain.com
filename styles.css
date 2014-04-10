@@ -58,15 +58,21 @@ body {
 
 /* Sidebar navigation */
 .nav-sidebar {
-  margin-right: -21px; /* 20px padding + 1px border */
+  margin-right: -20px;
   margin-bottom: 20px;
   margin-left: -20px;
-  margin-top:100px;
+  margin-top:90%;
+}
+.nav-sidebar > li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: inherit;
 }
 .nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
   color: #fff;
+  display: block;
 }
 .nav-sidebar > li > a:hover {
   background: #f4b7f8;  
